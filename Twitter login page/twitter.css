@@ -1,0 +1,52 @@
+@font-face{
+    src: url("fonts/Roboto-Bold.ttf");
+    font-family: "Roboto";
+    src: url("fonts/Segoe\ UI.ttf");
+    font-family: "Segoe UI";
+}
+
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 450px;
+    height: 476px;
+    margin:auto;
+    border: none;
+    margin-top: 60px;
+}
+.title{
+    font-family: Roboto;
+    font-size: 42px;
+    line-height: 49px;
+    font-family: "Roboto";
+}
+
+.email, .pass{
+    width: 450px;
+    height: 70px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-family: "Segoe UI";
+}
+
+.login{
+    width: 450px;
+    height: 60px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 76px;
+    color: white;
+    margin-top: 25px;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer{
+   color: #1DA1F2;
+   font-size: 18px;
+   font-family: "Segoe UI";
+   padding-top: 15px;
+}
